@@ -1,0 +1,88 @@
+Home menu
+	<label>Amount of marcos</label>
+		Just show the current balance in big, bold letters and up to 2 decimal spaces
+	<button>Achievement</button>
+		When clicked, change to the Achievement Menu window
+	<button>Work</button>
+		When clicked, change to the Work Menu window
+	<button>Exchange</button>
+		When clicked, change to the Exchange Menu window
+	<button>Progress</button>
+		When clicked, change to the Progress Menu window
+	<label>Highest Amount</label>
+
+	** Automatically reduce marcos by 0.25 on a new day
+	** Use TinyDB to store amount of coins
+
+Achievement Menu
+	<label>Amount</label>
+	Waking up (input)
+		points = (6:00 AM - time)*0.25
+	Nim Ready (input)
+		points = (15min - time)
+	Good Morning/ Good night message (input)
+		points = (len(input))/250
+	Using Time Manager Tool (amount of pomodoros)
+		points = (5 * pomodoro)
+	Work Done (select from classes-tasks)
+		points = priority
+	Exercise (input)
+		points = time
+
+Work Menu
+	<label>"What three tasks will I concentrate in?"</label>
+	3 buttons that move to the work input menu
+	<button>Clear all</button>
+	Sort based on:
+		urgency = (due_date - current_date)
+		difficulty = input
+		predicted_time = input	
+		priority = (urgency)*(difficulty+predicted_time*0.16666666666666666667)
+
+Work input menu
+	<input>Class:</input>
+	<input>Task:</input>
+	<calendar>Urgency</calendar>
+	<scroll>difficulty</scroll>
+	<input>predicted_time</input>
+	<label>Resulting priority</label
+	
+Exchange Menu
+	<label>Amount</label>
+	Sleep in the car (10 marcos)
+	5 minute YouTube (10 marcos)
+	10 minute YouTube (17 marcos)
+	15 minute YouTube (25 marcos)
+	30 minute YouTube (45 marcos)
+	60 minute YouTube (60 marcos)
+	Movie (60 marcos)
+	Programming for an hour (60)
+	
+Progress menu
+	Graph of points in function of hour
+
+Data:
+	Current Amount
+	Highest Amount
+	list:{work}
+		-1
+			-Class
+			-Task
+			-Urgency
+			-Difficulty
+			-Predicted_time
+			-Resulting_priority
+		-2
+			-Class
+			-Task
+			-Urgency
+			-Difficulty
+			-Predicted_time
+			-Resulting_priority
+		-3
+			-Class
+			-Task
+			-Urgency
+			-Difficulty
+			-Predicted_time
+			-Resulting_priority
