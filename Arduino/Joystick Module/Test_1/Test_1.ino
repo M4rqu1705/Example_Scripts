@@ -13,9 +13,9 @@ void setup() {
 
 void loop() {
   Serial.print("X Position: ");
-  Serial.print(analogRead(x_joy));
+  Serial.print((analogRead(x_joy)));
   Serial.print(" |\tY Position: ");
-  Serial.print(analogRead(y_joy));
+  Serial.print((1024-analogRead(y_joy)));
   Serial.print(" |\tButton: ");
   Serial.println(digitalRead(button_pin));
 

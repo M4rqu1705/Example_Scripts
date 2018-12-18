@@ -54,7 +54,7 @@ void setup_mpu(){
 void retrieve_data(){
   Wire.beginTransmission(MPU_ADDR);
   Wire.write(0x3B); // starting with register 0x3B (ACCEL_XOUT_H) [MPU-6000 and MPU-6050 Register Map and Descriptions Revision 4.2, p.40]
-  Wire.endTransmission(false); // the parameter indicates that the Arduino will send a restart. As a result, the connection is kept active.
+  Wire.endTransmission(false); // the parameter indicates that th e Arduino will send a restart. As a result, the connection is kept active.
   Wire.requestFrom(MPU_ADDR, 7*2, true); // request a total of 7*2=14 registers
   
   // "Wire.read()<<8 | Wire.read();" means two registers are read and stored in the same variable
@@ -76,4 +76,3 @@ void retrieve_data(){
   gyro_y = -gyro_y;   // Posterior view, front part on front and back part on back
   gyro_z = gyro_z;    // Top view, left part on left and right part on right
 }
-
