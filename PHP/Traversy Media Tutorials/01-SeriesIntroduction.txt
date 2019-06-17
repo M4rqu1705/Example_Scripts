@@ -1,0 +1,72 @@
+Link: https://youtu.be/oJbfyzaA2QA
+
+Since PHP needs a server to run, we'll be installing Xammp software suite
+which will give us an Apache server, PHP, MySQL and PHPMyAdmin to manage
+databases. It is cross-platform, and there are other tools and we can set
+up a lamp stack.
+
+
+Procedural programming vs Object Oriented programming:
+    1) Programming paradigm based on the concept of the procedure call,
+       routines, subroutines or functions. These can be called out at any
+       point of the program's execution including by other functions and
+       itself. Part of its object is modularity, restrained scopes, and to
+       break down programming task into a collection of variables, data
+       structures, and subroutines.
+    https://en.wikipedia.org/wiki/Procedural_programming
+    2) Programming paradigm based on the concept of objects which contain
+       fields/attributes, procedures/methods and identifiers. Its main
+       focus is to break down a programming task into objects that expose
+       these characteristics of behavior/methods, data/attributes through
+       the use of interfaces. Objects operates its "own" data structure
+    https://en.wikipedia.org/wiki/Object-oriented_programming
+
+Types of Databases:
+    MySQL
+    PostGreSQL
+    MongoDB - NoSQL databases
+
+PHP = PHP Hypertext Preprocessor
+Open-source, server side
+Linux, Apache, MySQL, PHP belong to the LAMP stack, and is a popular stack to
+work with. 
+    LAMP Stack:
+        - Archetypal model of web service stacks named as an acronym of the
+          names of its original four open-source components.
+        - Interchangeable components and not limited to the original selection.
+        - Suitable for dynamic web sites and web applications
+    https://en.wikipedia.org/wiki/LAMP_(software_bundle)
+Although it needs a server to run, in can be embedded into HTML using <?php ?>
+PHP files NEED the correct ".php" file extension
+
+While the server processes a user HTTP(S) request, PHP has the ability to use
+extensions and databases. Afterwards, the server sends the output to the client. 
+
+ONLY THE RESULT OF PHP SCRIPTS ARE SENT BACK. CLIENTS CANNOT SEE THE PHP CODE
+                  k
+Pros:
+    - PHP is very flexible, which is a pro and con.
+        * Less structure and less strict
+    - Easy to learn compared to other server-side languages
+        * Not typed (no need to define data types)
+    - A lot of support, including good documentation and good community
+    - Cross Platform and a lot of servers
+    - Contains a lot of frameworks
+        * Laravel
+        * Symphony
+        * CodeIgniter
+    - Compatible with databases
+        * MySQL
+        * PostGreSQL
+        * MongoDB
+
+What can PHP do:
+    - Create dynamic page content
+    - Interact with other files on the server
+    - Collect and process HTML forms
+    - Send and receive cookies
+        * Work with sessiones
+    - Read, update, delete data from database
+    - Implement acces control on the website
+    - Encrypt data
+

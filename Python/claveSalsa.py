@@ -14,4 +14,3 @@ while True:
     sleep(times[1])
     Beep(500, 100)
     sleep(times[2])
-

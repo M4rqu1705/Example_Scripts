@@ -1,0 +1,98 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage[latin1]{inputenc} 
+
+
+\title{Coordenadas Polares}
+\author{Marcos R. Pesante Colón}
+\date{7 de mayo de 2019}
+
+\begin{document}
+
+\maketitle
+
+1) Determina las coordenadas rectangulares de los puntos con las siguientes coordenadas polares: $(6,\frac{\pi}{6})$.
+$$x = r\cos{\theta} = 6 \times \cos{\left(\frac{\pi}{6}\right)} = 6 \times \frac{\sqrt{3}}{2} = 3\sqrt{3}$$
+$$y = r\sin{\theta} = 6 \times \sin{\left(\frac{\pi}{6}\right)} = 6 \times \frac{1}{2} = 3$$
+{\centering
+    Coordenadas cartesianas: $(3\sqrt{3}, 3)$
+}
+\\
+
+2) Determine las coordenadas polares de un punto cuyas coordenadas rectangulares son: $(-1, -\sqrt{3})$.
+$$r = \sqrt{x^2 +y^2} \qquad \theta = \arctan{\left(\frac{y}{x}\right)}$$
+$$r = \sqrt{(-1)^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = \sqrt{4} = 2$$
+$$\theta = \pi + \arctan{\left(\frac{-\sqrt{3}}{-1}\right)} = \pi + \frac{\pi}{3} = \frac{4\pi}{3}$$
+{\centering
+    Coordenadas polares: $(2, \frac{4\pi}{3})$
+}
+\\
+
+3) Transforma la ecuación $4xy = 9$ de coordenadas rectangulares a coordenadas polares.
+$$x = r\cos{\theta}\qquad y = r\sin{\theta}$$
+$$4xy = 9$$
+$$4r^2\cos{\theta}\sin{\theta} = 9$$
+$$2r^2\sin{(2\theta)} = 9$$
+{\centering
+    Ecuación: $2r^2\sin{(2\theta)} = 9$
+}
+\\
+
+4) Transforma la ecuación $r = 6\cos{\theta}$ de coordenadas polares a coordenadas rectangulares.
+$$r = 6\cos{\theta}$$
+$$r^2 = 6r\cos{\theta}$$
+$$x^2 + y^2 = 6x$$
+$$x^2 - 6x + y^2 = 0$$
+$$x^2 - 6x + 9 + y^2 = 9$$
+$$(x-3)^2 + y^2 = 9$$
+{\centering
+    Ecuación: $(x-3)^2 + y^2 = 9$
+}
+\\
+
+5) Escribe el siguiente número complejo en su forma polar: $-2 + 3i$.
+$$Z = x + yi \qquad r = \sqrt{x^2 + y^2} \qquad \theta = \pi + \arctan{(\frac{y}{x})}$$
+$$r = \sqrt{(-2)^2 + (3)^2} = \sqrt{4 + 9} = \sqrt{13}$$
+$$\theta = \pi + \arctan{3/-2} = \pi + -0.98 = 2.16$$
+$$(\sqrt{13}, 2.16)$$
+{\centering
+    Número: $(\sqrt{13}, 2.16)$
+}
+\\
+
+6) Escribe de la forma $a + bi$: $(\sqrt{3}+i)^6$.  Use el Teorema de Moivre.
+\\
+{\centering
+Teorema de Moivre:\\
+}
+    Si Z es un número complejo de la forma $Z = r(\cos{\theta} + \sin{\theta}i)$, entonces $Z^n = r^n(\cos{(n\theta)} + \sin{(n\theta)}i)$ donde $ n \in \mathbb{N}$
+$$Z = x + yi \qquad r = \sqrt{x^2 + y^2} \qquad \theta = \pi + \arctan{(\frac{y}{x})}$$
+$$r = \sqrt{(\sqrt{3})^2 + (1)^2} = \sqrt{3 + 1} = \sqrt{4} = 2$$
+$$\theta = \arctan{\left(\frac{\sqrt{3}}{1}\right)} = 1.05$$
+$$(\sqrt{3} + i) = 2(\cos{1.05} + \sin{(1.05)}i) = 2^6\left[\cos{(6\times 1.05)} + \sin{(6\times 1.05)}i\right]$$
+$$ = 64\left(\cos{6.3} + \sin{6.3}i\right) = 63.99 + 1.08i$$
+{\centering
+    Número: $63.99 + 1.08i$
+}
+\\
+\\
+
+7) Dado el punto (-1,3,5) y radio 2 representa la ecuación de la esfera. 
+$$r^2 = (x-h)^2 + (y-k)^2 + (z-j)^2$$
+$$(2)^2 = (x+1)^2 + (y-3)^2 + (z-5)^2 \Longrightarrow 4 = (x+1)^2 + (y-3)^2 + (z-5)^2$$
+$$\Longrightarrow 4 = x^2 + 2x + 1 + y^2 - 6x + 9 + z^2 - 10x + 25$$
+{\centering
+    Ecuación: $4 = x^2 + 2x + 1 + y^2 - 6x + 9 + z^2 - 10x + 25$
+}
+\\
+\\
+
+8) Dada la ecuación de la esfera $x^2 + 4x - 2 + y^2 - 6y + z^2 + 8z = 0$ hallar el centro y el radio
+$$x^2 + 4x + 4 + y^2 - 6y + 9 + z^2 + 8z + 16 = 0 + 4 + 9 + 16 + 2$$
+$$(x+2)^2 + (y-3)^2 + (y+4)^2 = 29$$
+\\
+{\centering
+    Centro: $(-2,3,-4)$, Radio:$\sqrt{29}$
+}
+
+\end{document}

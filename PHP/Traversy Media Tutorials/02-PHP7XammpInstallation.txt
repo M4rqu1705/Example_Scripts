@@ -1,0 +1,29 @@
+Link: https://www.youtube.com/watch?v=6tCWiexc05U&list=PLillGF-Rfqbap2IB6ZS4BBBcYPagAjpjn&index=2
+
+Setting up Apache, MySQL and PHP with XAMPP
+    - https://www.apachefriends.org/index.html
+    - When installing, make sure we are installing the latest version of PHP and
+      the correct Operating System. 
+    - Download took some time. It was 147 mB big.
+    - Only choose Apache, MySQL, PHP, Perl, phpMyAdmin, Webalizer and Fake
+      Sendmail
+    - Uncheck the `Learn more about Bitnami for XAMPP` check button
+    - Also took some time installing
+    - Do not start the control panel yet.
+    - Only run `xampp-control.exe` executeable as administrator
+
+
+Use browser to go to following link and access the server
+    `http://localhost`
+
+Configuration:
+    - To prevent redirection to dashboard change `XAMPP -> htdocs -> index.php`
+    - Go to `http://localhost/phpmyadmin`
+        * Used to manage databases
+        * Add password by:
+            1) Inside `http://localhost/phpmyadmin` go to `User accounts -> Edit
+               privileges -> Change Password` for root with Host name
+               localhost
+            2) Go to `XAMPP -> phpMyAdmin -> config.inc.php` file and change
+                + $cfg['Servers'][$i]['password'] = ''
+                of user root to desired password

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+
+        <title>Task list</title>
+
+        <base href="."/>
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="#" /> -->
+
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="description" content="This web application will be useful to 
+        keep track of homework and tasks"/>
+        <meta name="keywords" content=""/>
+        <meta name="copyright" content="" />
+        <meta name="author" content="M4rqu1705" />
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta property="og:type" content=""/>
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+
+        <meta property="og:site_name" content=""/>
+
+        <!-- <meta http-equiv="refresh" content="3" > -->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Requirements:
+            - Pretty
+            - Persistence
+            - Sort
+            - Manual order change
+            - Sort by name
+            - Sort by time
+        -->
+        <header>
+            <h1>To do list</h1>
+        </header>
+
+        <main>
+            <section>
+                <!-- Check button -->
+                <label class="checkContainer">
+                    <input type="checkbox"/>
+                    <span class="checkmark"></span>
+                </label>
+                <!-- Course header -->
+                <span id="courseHeader">Course</span>
+                <!-- Task header -->
+                <span id="taskHeader">Task</span>
+                <!-- Time icon -->
+                <span id="timeIcon" class="far fa-clock"></span>
+            </section>
+
+            <div id="taskContainer">
+                <div class="task">
+                    <!-- Check button -->
+                    <label class="checkContainer">
+                        <input type="checkbox"/>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <!-- Course text input -->
+                    <input class="courseInput" type="text"/>
+                    <!-- Task text input -->
+                    <input class="taskInput" type="text"/>
+                    <!-- Time required number input -->
+                    <input class="timeInput" type="number"/>
+                    <!-- Move up and down buttons -->
+                    <button class="reorderUp fas fa-arrow-up" 
+                            onclick="moveUp(self);"></button>
+                    <button class="reorderDown fas fa-arrow-down" 
+                            onclick="moveDown(self);"></button>
+                </div>
+
+            </div>
+
+            <div id="actionContainer">
+                <button id="addTask" class="fas fa-plus"
+                        onclick="addTask();"></button>
+                <button id="removeTask" class="fas fa-broom"
+                        onclick="removeChecked();"></button>
+            </div>
+        </main>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+#drop_zone_wrapper{
+    background-color:#DDDDDD;
+    padding:1%;
+    margin:10%
+}
+
+#drop_zone{
+    border:1.5px dashed #222222;
+    padding:2%;
+    color:#111111
+}
+
+#list{
+    width:90%;
+    margin-left:5%;
+}
+
+.container{
+    margin-bottom:5%;
+    padding:3%
+}

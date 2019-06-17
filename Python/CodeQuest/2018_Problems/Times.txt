@@ -1,0 +1,22 @@
+1_PassOrFail: ~10 mins
+    - Trouble configuring files and reading file
+        SOLN: Manual CD in Vim took some time and delayed me. I wanted to read 
+        the Prob01.in.txt file, but not being in the correct directory delayed 
+        me significantly
+        ToDo: Attempt to run `execute "cd " . shellescape(expand("%:p:h"))`
+2_AEIOU: ~6 mins
+    - No delay at all, except not knowing about the count function for python 
+      lists
+        ToDo: Study every one of python's list functions
+3_SufFix: ~15 mins
+    - Main delay was now knowing how to use the re module, the subs function, 
+      and having to research for solutions. Additionally, I had to test the 
+      regex multiple times (which is understandable), but resorted to an online 
+      solution.
+        ToDo: Sutdy the re functions, test them, and make a simple script to 
+        test regexes 
+4_Rock,Paper,Scissors: ~10 mins
+    - Main delay was confusion as to how to solve the problem, and the 
+      time-consuming solution of writing code for every single possible case, 
+      which was inefficient
+        ToDo: Practice problems
