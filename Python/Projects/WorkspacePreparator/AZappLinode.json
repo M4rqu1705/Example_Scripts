@@ -1,0 +1,8 @@
+[
+    {"windowsRun" : ["chrome https://prod1.azapp.org:2083/"]},
+    {"windowsRun" : ["vim C:\\Users\\m4rc0\\Desktop\\AZapp"]},
+    {"wait" : [3]},
+    {"hotkey" : ["alt", "tab"]},
+    {"hotkey" : ["ctrl", "l"]},
+    {"type" : ["ihello!"]}
+]
