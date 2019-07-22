@@ -93,7 +93,6 @@ def game_over_sequence(score):
         display.show(score)
     else:
         display.scroll(score)
-    sleep(3000)
     display.scroll("Game Over")
     display.show(decrease, delay=200)
     display.clear()
@@ -102,16 +101,22 @@ def game_over_sequence(score):
 snake = Snake()
 food = Food()
 
+# PROGRAM BEGINS HERE --- PROGRAM BEGINS HERE --- PROGRAM BEGINS HERE
 startup_sequence()
+
+display.clear()
 snake.show()
 food.show()
-sleep(500)
+sleep(1000)
 
 while True:
-    if button_a.was_pressed():
-        snake.turn("left")
-    elif button_b.was_pressed():
-        snake.turn("right")
+    a, b = button_a.was_pressed(), button_b.was_pressed()
+
+    if a != b:
+        if a:
+            snake.turn("left")
+        elif b:
+            snake.turn("right")
     else:
         display.clear()
         snake.move()
