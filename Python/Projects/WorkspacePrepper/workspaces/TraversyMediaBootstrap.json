@@ -1,0 +1,5 @@
+[
+    {"run": ["explorer \"C:\\Users\\m4rc0\\Downloads\\Bootstrap 4 From Scratch\" "]},
+    {"run": ["chrome https://youtu.be/F0IbjVq-fgs "]},
+    {"run": ["vim \"C:\\Users\\m4rc0\\Documents\\programming_projects\\Web\\Learn\\TraversyMediaBootstrap\" "]}
+]

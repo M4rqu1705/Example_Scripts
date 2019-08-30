@@ -1,84 +1,33 @@
 E318261B - On/Off
-
 FFA25D - On/Off
 
-
 FF629D - Volume Up
-
-
+FFA857 - Volume Down
 
 FFE21D - Func/Stop
 EE886D7F - Func/Stop
 
-
-FF22DD - Back
-
-
-
 FF02FD - Play/Pause
-
-
 D7E84B1B - Play/Pause
 
 FFC23D - Forward
-
-
-
-FFE01F - Down Arrow
-
-
-
-FFA857 - Volume Down
-
-
+FF22DD - Back
 
 FF906F - Up Arrow
-
-
-
-FF6897 - Number 0
-
-
+FFE01F - Down Arrow
 
 FF9867 - EQ
 
-
-
 FFB05F - ST/Rept
-
 FFB04F - ST/Rept
 
-
+FF6897 - Number 0
 FF30CF - Number 1
-
-
-
 FF18E7 - Number 2
-
-
-
 FF7A85 - Number 3
-
-
-
 FF10EF - Number 4
-
-
-
 FF38C7 - Number 5
-
-
-
 FF5AA5 - Number 6
-
-
-
 FF42BD - Number 7
-
-
-
 FF4AB5 - Number 8
-
-
-
 FF52AD - Number 9

@@ -13,7 +13,7 @@ def convertUnits(string):
     output, string = 0, string.lower().strip()
 
     if unitClassifier.search(string):  #If any of the strings in the regular expression are found
-      output = int(float(re.compile('(\d*\.\d+|\d+)').match(string).group(1)) * 60.0)  #Multiply the retrieved number, be it integer or boolean, by 60 and store it as an integer
+        output = int(float(re.compile('(\d*\.\d+|\d+)').match(string).group(1)) * 60.0)  #Multiply the retrieved number, be it integer or boolean, by 60 and store it as an integer
     else:
       output = int(re.compile('(\d+)').match(string).group(1)) #Retrieve the number as it is and store it as an integer
 

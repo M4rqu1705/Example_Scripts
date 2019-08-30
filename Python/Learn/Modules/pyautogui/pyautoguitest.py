@@ -1,8 +1,9 @@
-#!/usr/bin/env python
+#!/user/bin/env python
 # -*- coding: utf-8 -*-
 from math import cos, sin
 from time import sleep, time
 import pyautogui as pygui
+
 
 def main():
     # Your code starts here ---------------------------------------------------
@@ -72,4 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

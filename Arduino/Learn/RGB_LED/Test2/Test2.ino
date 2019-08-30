@@ -1,4 +1,4 @@
-// Establish ports 
+// Establish ports
 const unsigned char RED_LED = 11, GREEN_LED = 10, BLUE_LED = 9;
 
 int r = 0, g = 0, b = 0;

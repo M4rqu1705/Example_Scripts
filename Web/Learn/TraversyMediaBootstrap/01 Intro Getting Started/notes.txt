@@ -1,0 +1,96 @@
+Bootstrap 4.1.1
+- Open source front-end framework for fast web development
+- Pre-made HTML/CSS templates & classes
+- JavaScript widgets & plugins
+- Mobile first, responsive layout
+
+Advantages:
+- Browser compatible
+- Faster development with pre made classes and responsive grid
+- Good for developers that lack design/UI skills
+- Easy to learn
+- Responsive layout
+
+Ways to install/use Bootstrap:
+- CDN - Content Delivery Network
+    + Fast - files are served from high-capacity infrastructures
+    + Can boost performance
+    + Can save money
+- Download and Include Files
+    + Not as recommended
+- Package managers - NPM & Yarn
+    + Needs command line interface
+    + Good for advanced developers who want to compile their own versions or
+    merge files together, or do certain tasks
+
+UI Utilities:
+- Grid system
+- Text & Typography
+- Positioning
+- Spacing (margin, padding, etc.)
+- Sizing
+- Alignment
+- Colors
+- Images
+- Responsive Utilities
+- Shadows
+- Borders
+- More!
+
+CSS Components
+- Forms & Input Groups
+- Tables
+- List groups
+- Cards
+- Progress Bars
+- Alerts
+* Navbar & Menus
+- Buttons & Buttons groups
+- Paginations
+- Media Objects
+- Jumbotron
+- Badges
+
+JavaScript Widgets
+- Carrousel Slider
+- Collapsible Accordion
+- Modals
+- Tooltips
+- Popovers
+- ScrollSpy
+
+Bootstrap 3 to Bootstrap 4
+- Flat style over gradient
+- More subtle look
+- More Color Classes
+- Button Outlines
+- Flexbox
+    + Grid system improved
+    + Navbar
+    + Components
+    + Custom flex classes
+    + Cards
+- Rem & em units instead of pixels
+- New xl tier for extra large screens (1200px<=)
+- Cards
+    + Replacement for panels, wells, and thumbnails
+- Navbar
+    + Different sizes {-sm|-md|-lg|-xl} for responsive sizes
+    + More color schemes
+- Forms
+    + No more .form-horizontal class
+    + Forms using grids require the .row class and can use the .col-form-label
+    for labels
+    + Use .form-control-bg and .form-control-sm to increase or decrease the size
+    of an input control
+    + Help text now uses the .form-text class instead of .help-block
+- Moved from Less to Sass
+- Libsass compiles Sass faster
+- Bigger fonts and headings
+- Extra display class for headings
+- No longer supports Internet Explorer 8 and 9
+- Reboot module
+    + Builds upon the `normalize.css`
+- Inversed table (dark tables; .table-dark)
+- Glyphicons are no longer supported, but FontAwesome is recommended
+- Sizing & spacing classes
