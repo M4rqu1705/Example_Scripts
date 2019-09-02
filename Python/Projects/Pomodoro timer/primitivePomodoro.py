@@ -7,10 +7,9 @@ environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 from pygame import mixer
 from time import sleep, time
 
-def playSound(soundFile, seconds):
+def playSound(soundFile):
     mixer.music.load(soundFile)
     mixer.music.play()
-    sleep(seconds)
 
 
 def main():
@@ -23,32 +22,49 @@ def main():
     work_tone = path.join("sounds", "work.mp3")
 
     # Program execution variables for later use
-    paused = False
     stop = False
+    iterations = 1
+    work_time, rest_time = 25*60, 5*60
     init_time = time()
-    current_time = 0
+    current_time = time()
 
     try:
         # Try to eternally loop through work and rest sound files
         while not stop:
-            #  playSound(work_tone, 25 * 60)
-            #  current_time = time() - init_time
-            #  while(current_time < 25 * 60):
-                #  current_time = time() - init_time
-                #  print(int(current_time), end="\r")
-            #  playSound(rest_tone, 5 * 60)
-            #  current_time = time() - init_time
-            #  while(current_time < 5 * 60):
-                #  current_time = time() - init_time
-                #  print(int(current_time), end="\r")
-            #  init_time = time()
-            playSound(work_tone, 25 * 60)
-            playSound(rest_tone, 5 * 60)
+            # Work phase
+            playSound(work_tone)
+            current_time = time()-init_time
+
+            while(current_time < work_time):
+                current_time = time()-init_time
+                minutes = current_time//60
+                seconds = int(current_time - minutes*60)
+
+                message = "Work timer {}: {:02n}:{:02n}".format(iterations, minutes, seconds)
+                print(message.strip(), end='\r')
+                sleep(1)
+            init_time = time()
+
+            # Rest phase
+            playSound(rest_tone)
+            current_time = time()-init_time
+
+            while(current_time < rest_time):
+                current_time = time()-init_time
+                minutes = current_time//60
+                seconds = int(current_time - minutes*60)
+
+                message = "Rest timer {}: {:02n}:{:02n}".format(iterations, minutes, seconds)
+                print(message.strip(), end='\r')
+                sleep(1)
+
+            iterations += 1
+            init_time = time()
 
     except KeyboardInterrupt:
-        print("Goodbye!")
+        print("\nGoodbye! Hope you were productive!!")
         mixer.quit()
-
+        exit(0)
 
 if __name__ == "__main__":
     main()
