@@ -9,8 +9,8 @@ def fraction(numerator, denominator):
 def abs(content):
     return "\\left| %s \\right|" % (str(content))
 
-def sqrt(contents):
-    return "\\sqrt{ %s }" % (str(contents))
+def sqrt(power, contents):
+    return "\\sqrt[%s]{ %s }" % (str(power), str(contents))
 
 def root(root, contents):
     return "\\sqrt[ %s ]{ %s }" % (str(root), str(contents))
