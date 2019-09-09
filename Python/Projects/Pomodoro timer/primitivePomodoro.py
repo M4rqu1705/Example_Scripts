@@ -1,18 +1,37 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 # Thank you https://stackoverflow.com/questions/7746263/how-can-i-play-an-mp3-with-pygame
 # and thank you https://nerdparadise.com/programming/pygame/part1
+
 from os import environ, chdir, path
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 from pygame import mixer
 from time import sleep, time
+from pyautogui import hotkey, typewrite, locateOnScreen, center, click
 
 def playSound(soundFile):
     mixer.music.load(soundFile)
     mixer.music.play()
 
+def openCodeRadio():
+    # Open Google Chrome with Freecodecamp radio
+    hotkey('win', 'r')
+    typewrite("chrome https://coderadio.freecodecamp.org\r\n")
+    sleep(1.5)
+
+    # Locate play button and click
+    try:
+        location = locateOnScreen('playButton.png', grayscale=True, region=(1440, 810, 480, 270))
+        x, y = center(location)
+        click(x, y, clicks=1, button='left')
+    except:
+        print("Could not play CodeRadio automatically!")
 
 def main():
+
+    openCodeRadio()
+
     # Initialize sound mixer
     mixer.init()
 
