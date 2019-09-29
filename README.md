@@ -6,7 +6,7 @@ In this repository I play around with different programming languages and learn 
 * [C++](./C++)
 * [LaTeX](./LaTeX)
 * [Markdown](./Markdown)
-* [MIT App Inventor](./MIT\ App\ Inventor)
+* [MIT App Inventor](./MIT%20App%20Inventor)
 * [PHP](./PHP)
 * [Python](./Python)
 * [HTML, CSS & JS](./Web)
