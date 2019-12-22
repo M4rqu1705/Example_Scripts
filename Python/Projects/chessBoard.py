@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 def generateCheckeredBoard():
     black, white = '░', '▓'
     columns = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']

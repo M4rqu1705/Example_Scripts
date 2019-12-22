@@ -1,0 +1,11 @@
+rock,rock,Draw
+paper,rock,You win
+scissors,scissors,Draw
+rock,paper,You lose
+paper,rock,You win
+scissors,scissors,Draw
+rock,rock,Draw
+paper,paper,Draw
+rock,rock,Draw
+paper,scissors,You lose
+rock,paper,You lose
