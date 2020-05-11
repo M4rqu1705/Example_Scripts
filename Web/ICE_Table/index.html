@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Tabla ICE</title>
+        <script src="https://bossanova.uk/jexcel/v3/jexcel.js"></script>
+        <link rel="stylesheet" href="https://bossanova.uk/jexcel/v3/jexcel.css" type="text/css" />
+        <script src="https://bossanova.uk/jsuites/v2/jsuites.js"></script>
+        <link rel="stylesheet" href="https://bossanova.uk/jsuites/v2/jsuites.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Tabla ICE</h1>
+        
+        <div id="table"></div>
+        <br><br>
+        
+        <label for="x-input" class="label-width">x</label>
+        <input type="text" id="x-input" oninput="updateX()" placeholder="0.042"><br>
+        
+        <label for="kc-input" class="label-width">Kc</label>
+        <input type="text" id="kc-input" oninput="updateKc()" placeholder="0.001"><br><br>
+        
+        <button id="find-x" onclick="processTable()">Find x!</button>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
