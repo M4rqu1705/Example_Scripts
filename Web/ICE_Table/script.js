@@ -1,3 +1,7 @@
+const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+document.getElementsByTagName("body")[0].style.height = `${1.0 * vh}px`;
+
 var x = 0;
 var kc = 0;
 
@@ -5,7 +9,7 @@ data = [
     ['Coeficiente', '0', '0', '0', '0'],
     ['Especies', 'HA', 'H2O', 'H3O+', 'A-'],
     ['Inicio (M)', '1.00', '1.00', '0.00', '0.00'],
-    ['Cambio (M)', '="-" + B1 + "x"', '=IFERROR(-ABS(B4), "-" + C1 + "x")', '=IFERROR(ABS(B4), "+" + D1 + "x")', '=IFERROR(ABS(B4), "+" + E1 + "x")'],
+    ['Cambio (M)', '="-" + B1 + "x"', '0', '=IFERROR(ABS(B4), "+" + D1 + "x")', '=IFERROR(ABS(B4), "+" + E1 + "x")'],
     ['Final (M)', '', '', '', '']
 ];
 
@@ -51,6 +55,9 @@ function handler(instance, cell, col, row, val, id){
         let initial = table.getLabelFromCoords(col, 2);
         let change = table.getLabelFromCoords(col, 3);
         if(String(change).search("x") + 1){
+            if(String(change) == "+1x") change = "+x";
+            else if(String(change) == "-1x") change = "-x";
+
             let output = String(initial) + String(change);
             if(Number(initial) == 0){
                 output = String(change);
@@ -119,13 +126,6 @@ function processTable() {
 
 
 // EVENT LISTENERS
-document.getElementById("x-input").addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    document.getElementById("find-x").click();
-  }
-});
-
 document.getElementById("kc-input").addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
