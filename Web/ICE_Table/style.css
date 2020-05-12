@@ -1,7 +1,49 @@
 body {
+    font-family: Helvetica;
+    padding: 1rem;
+    background-color: #ADD9F4;
+    color: #101419;
+}
+
+body > div{
+    width: fit-content;
     padding: 1rem;
 }
 
-.label-width {
-    width: 1.5rem;
+h1{
+    width: fit-parent;
+    text-align: center;
+    font-weight: 900;
+}
+
+button, input, #table > div, #table > div > *, td{
+    border: 0.1rem solid #101419!important;
+    margin: 0;
+    padding: 0;
+}
+
+td{
+    padding: 0.5rem!important;
+}
+
+button, input{
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+button{
+    font-size: 1.5rem;
+    width: 10.0rem;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #476C9B;
+}
+
+label{
+    width: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 0.5rem;
 }

@@ -2,30 +2,79 @@ var x = 0;
 var kc = 0;
 
 data = [
-    ['Coeficiente', '1', '1', '1', '1'],
-    ['', 'HA', 'H2O', 'H3O+', 'A-'],
+    ['Coeficiente', '0', '0', '0', '0'],
+    ['Especies', 'HA', 'H2O', 'H3O+', 'A-'],
     ['Inicio (M)', '1.00', '1.00', '0.00', '0.00'],
-    ['Cambio (M)', '="-" + B1 + "x"', '=IFERROR(-ABS(B4), "-" + C1 + "x")', '=IFERROR(ABS(B4), "--" + D1 + "x")', '=IFERROR(ABS(B4), "--" + E1 + "x")'],
-    ['Final (M)', '=B3 + B4', '=C3 + C4', '=D3 + D4', '=E3 + E4']
+    ['Cambio (M)', '="-" + B1 + "x"', '=IFERROR(-ABS(B4), "-" + C1 + "x")', '=IFERROR(ABS(B4), "+" + D1 + "x")', '=IFERROR(ABS(B4), "+" + E1 + "x")'],
+    ['Final (M)', '', '', '', '']
 ];
 
 var table = jexcel(document.getElementById("table"), {
     data: data,
-    colWidths: [100, 200, 200, 200, 200]
+    columns:[
+        {
+            type: 'text',
+            title: ' ',
+            width: 100,
+            readOnly: true
+        },
+        {
+            type: 'text',
+            title: 'Reactivo 1',
+            width: 200,
+            readOnly: false
+        },
+        {
+            type: 'text',
+            title: 'Reactivo 2',
+            width: 200,
+            readOnly: false
+        },
+        {
+            type: 'text',
+            title: 'Producto 1',
+            width: 200,
+            readOnly: false
+        },
+        {
+            type: 'text',
+            title: 'Producto 2',
+            width: 200,
+            readOnly: false
+        },
+    ],
+    onchange: handler
 });
+
+function handler(instance, cell, col, row, val, id){
+    if(row != 4){
+        let initial = table.getLabelFromCoords(col, 2);
+        let change = table.getLabelFromCoords(col, 3);
+        if(String(change).search("x") + 1){
+            let output = String(initial) + String(change);
+            if(Number(initial) == 0){
+                output = String(change);
+            }
+            table.setValueFromCoords(col, 4, output)
+        } else{
+            let output = Number(initial) + Number(change);
+            table.setValueFromCoords(col, 4, output)
+        }
+    }
+}
 
 function updateX() {
     x = document.getElementById("x-input").value;
     if (x === "") {
-        table.setValue("B4", '="-" + B1 + "x"', true);
-        table.setValue("C4", '="-" + C1 + "x"', true);
-        table.setValue("D4", '="--" + D1 + "x"', true);
-        table.setValue("E4", '="--" + E1 + "x"', true);
+        table.setValue("B4", '="-" + B1 + "x"');
+        table.setValue("C4", '="-" + C1 + "x"');
+        table.setValue("D4", '="+" + D1 + "x"');
+        table.setValue("E4", '="+" + E1 + "x"');
     } else {
-        table.setValue("B4", String(-x), true);
-        table.setValue("C4", String(-x), true);
-        table.setValue("D4", String(x), true);
-        table.setValue("E4", String(x), true);
+        table.setValue("B4", String(-x));
+        table.setValue("C4", String(-x));
+        table.setValue("D4", String(x));
+        table.setValue("E4", String(x));
     }
 }
 
@@ -36,7 +85,6 @@ function updateKc() {
 
 
 function processTable() {
-  
     let url = "https://www.symbolab.com/solver/step-by-step/";
     let A = table.getLabel("B5");
     let B = table.getLabel("C5");
@@ -84,3 +132,8 @@ document.getElementById("kc-input").addEventListener("keyup", function(event) {
     document.getElementById("find-x").click();
   }
 });
+
+
+for(let i = 1; i < 5; i++){
+    table.setValueFromCoords(i, 0, "1");
+}
