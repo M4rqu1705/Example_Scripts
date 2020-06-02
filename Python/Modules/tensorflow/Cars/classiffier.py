@@ -1,8 +1,8 @@
 import sys, io
 # Suppresss any output
-text_trap = io.StringIO()
-sys.stdout = text_trap
-sys.stderr = text_trap
+#  text_trap = io.StringIO()
+#  sys.stdout = text_trap
+#  sys.stderr = text_trap
 
 import tensorflow as tf
 from tensorflow import keras

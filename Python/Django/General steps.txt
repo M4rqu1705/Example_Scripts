@@ -1,0 +1,20 @@
+Commands inside tutorial:
+	0) Check django version:
+		`python -m django --version`
+	1) Create collection of settings and database configuration:
+		`django-admin startproject [project-name]`
+	2) Run DEVELOPER server to test site
+		`python manage.py runserver [ip_address]:[port]`
+	3) Create new app:
+		`python manage.py startapp [app-name]`
+	4) Crate database tables using the INSTALLED_APPS list:
+		`python manage.py migrate`
+	5) Tell django changes to the model occurred and they will be stored as a migration:
+		`python manage.py makemigrations [app-name]
+	6) Preview SQL commands (does not actually do anything):
+		`python manage.py sqlmigrate [app-name] [number/id]`
+	7) Run migrate again (step 4)
+	8) Run interactive shell with which Database can be updated and managed
+		`python manage.py shell`
+	9) Create admin:
+		`python manage.py createsuperuser`
