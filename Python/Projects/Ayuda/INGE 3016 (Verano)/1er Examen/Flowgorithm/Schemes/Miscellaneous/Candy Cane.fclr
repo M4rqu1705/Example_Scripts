@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Candy Cane
+Author  = Devin Cook
+About   = Nothing says "The Holidays" more than candy canes.
+Date    = 2019-07-04 16:49:41
+Version = 2.22
+
+[Line]
+Fill   = FF8040
+Border = FCF6F6
+
+[Page]
+Fill   = 305080
+Border = FCF6F6
+Text   = FCF6F6
+
+[Breakpoint]
+Fill   = D05048
+Border = FCF6F6
+Text   = 000000
+
+[Comment]
+Fill   = 305080
+Border = FCF6F6
+Text   = FCF6F6
+
+[Input]
+Fill   = FCF6F6
+Border = D04038
+Text   = D04038
+
+[Output]
+Fill   = D05048
+Border = FCF6F6
+Text   = FCF6F6
+
+[Declare]
+Fill   = FCF6F6
+Border = D04038
+Text   = D04038
+
+[Assign]
+Fill   = FCF6F6
+Border = D04038
+Text   = D04038
+
+[Terminator]
+Fill   = D05048
+Border = FCF6F6
+Text   = FCF6F6
+
+[Call]
+Fill   = FCF6F6
+Border = D04038
+Text   = D04038
+
+[If]
+Fill   = FCF6F6
+Border = D04038
+Text   = D04038
+
+[Loop]
+Fill   = FCF6F6
+Border = D04038
+Text   = D04038
+
+[Incomplete]
+Fill   = 305080
+Border = FCF6F6
+Text   = FCF6F6
+
+[Error]
+Fill   = FF0000
+Border = FFFF80
+Text   = FFFF80
+
+[Selected]
+Fill   = 2080D0
+Border = FCF6F6
+Text   = FCF6F6
+
+[Executing]
+Fill   = 28D028
+Border = FCF6F6
+Text   = FCF6F6
+
+[Window]
+Fill   = 406090
+Border = 103060
+Text   = FFFFFF
+
+[Header]
+Fill   = 48609E
+Border = FCF6F6
+Text   = FCF6F6
+
+[Hover]
+Fill   = 48609E
+Border = FCF6F6
+Text   = FCF6F6
+
+[Integer]
+Fill   = 4060C0
+Border = FCF6F6
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = FCF6F6
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = FCF6F6
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = FCF6F6
+Text   = FFFFFF
+
+[Value]
+Fill = FCF6F6
+Text = D04038
+
+[Subscript]
+Fill = D05048
+Text = FCF6F6

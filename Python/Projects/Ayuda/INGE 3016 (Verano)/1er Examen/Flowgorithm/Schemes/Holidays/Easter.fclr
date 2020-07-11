@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Easter
+Author  = Devin Cook
+About   = Colored eggs hidden in the yard
+Date    = 2019-07-10 13:19:17
+Version = 2.22
+
+[Line]
+Fill   = FFFFD0
+Border = 88F8C8
+
+[Page]
+Fill   = 38A878
+Border = FFFFFF
+Text   = FFFFD0
+
+[Breakpoint]
+Fill   = FFD0D0
+Border = 004020
+Text   = 000000
+
+[Comment]
+Fill   = 38A878
+Border = FFFFFF
+Text   = FFFFD0
+
+[Input]
+Fill   = C0E0FF
+Border = 004120
+Text   = 406080
+
+[Output]
+Fill   = D0FFD0
+Border = 004020
+Text   = 508050
+
+[Declare]
+Fill   = FFE0A0
+Border = 004020
+Text   = 806020
+
+[Assign]
+Fill   = FFFFD0
+Border = 004020
+Text   = 808050
+
+[Terminator]
+Fill   = FFFFFF
+Border = 404040
+Text   = 606060
+
+[Call]
+Fill   = FFD0D0
+Border = 004020
+Text   = 805050
+
+[If]
+Fill   = FFD0D0
+Border = 004020
+Text   = 805050
+
+[Loop]
+Fill   = F0D0FF
+Border = 004020
+Text   = 705080
+
+[Incomplete]
+Fill   = E0E0E0
+Border = 404040
+Text   = 606060
+
+[Error]
+Fill   = 802020
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 2080D0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 208040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 188858
+Border = 004818
+Text   = FFFFD0
+
+[Header]
+Fill   = FFFFFF
+Border = 404040
+Text   = 606060
+
+[Hover]
+Fill   = 188858
+Border = 004818
+Text   = FFFFD0
+
+[Integer]
+Fill   = C0E0FF
+Border = 004120
+Text   = 406080
+
+[Real]
+Fill   = F0D0FF
+Border = 004020
+Text   = 705080
+
+[String]
+Fill   = FFD0D0
+Border = 004020
+Text   = 805050
+
+[Boolean]
+Fill   = D0FFD0
+Border = 004020
+Text   = 508050
+
+[Value]
+Fill = FFFFFF
+Text = 606060
+
+[Subscript]
+Fill = FFFFD0
+Text = 808050

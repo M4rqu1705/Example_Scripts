@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Doctor Who
+Author  = Doctor Who television series (scheme by Devin Cook)
+About   = The colors of Doctor Who's TARDIS.
+Date    = 2020-06-23 17:47:50
+Version = 2.22
+
+[Line]
+Fill   = FFFFFF
+Border = 70ABDF
+
+[Page]
+Fill   = 003B6F
+Border = FFFFFF
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000000
+
+[Comment]
+Fill   = 003B6F
+Border = 70ABDF
+Text   = 70ABDF
+
+[Input]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[Output]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[Declare]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[Assign]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[Terminator]
+Fill   = 181818
+Border = 609BCF
+Text   = FFFFFF
+
+[Call]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[If]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[Loop]
+Fill   = FFFFFF
+Border = 000B3F
+Text   = 000B3F
+
+[Incomplete]
+Fill   = 003B6F
+Border = FFFFFF
+Text   = FFFFFF
+
+[Error]
+Fill   = C04040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 407BAF
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 20A020
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 003B6F
+Border = 000B3F
+Text   = FFFFFF
+
+[Header]
+Fill   = 181818
+Border = 609BCF
+Text   = FFFFFF
+
+[Hover]
+Fill   = 407BAF
+Border = 000B3F
+Text   = FFFFFF
+
+[Integer]
+Fill   = 4060C0
+Border = 181818
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 181818
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 181818
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 181818
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000B3F
+
+[Subscript]
+Fill = 181818
+Text = FFFFFF

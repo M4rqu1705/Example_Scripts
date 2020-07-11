@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 07:17:10 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDc6MTQ6MjMgUE07Mjc2OQ=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDc6MTc6MTAgUE07MjsyODc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="jacketProgram.fprg"/>
+            <declare name="temperature" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter current temperature in Farentheit:&quot;" newline="True"/>
+            <input variable="temperature"/>
+            <if expression="temperature &lt; 45">
+                <then>
+                    <output expression="&quot;Bring a heavy jacket&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="temperature &gt; 75">
+                        <then>
+                            <output expression="&quot;Do not bring a jacket&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Bring a light jacket&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

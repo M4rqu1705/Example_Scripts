@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Windows 8 - Border
+Author  = Microsoft (scheme by Devin Cook)
+About   = The colors of the much-maligned, but colorful, Start Screen.
+Date    = 2019-07-04 16:18:46
+Version = 2.22
+
+[Line]
+Fill   = 2674EC
+Border = FFFFFF
+
+[Page]
+Fill   = 00006F
+Border = FFFFFF
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = BD1E4A
+Border = 000000
+Text   = 000000
+
+[Comment]
+Fill   = 00006F
+Border = FFFFFF
+Text   = FFFFFF
+
+[Input]
+Fill   = 0A59C2
+Border = 000000
+Text   = FFFFFF
+
+[Output]
+Fill   = 008D00
+Border = 000000
+Text   = FFFFFF
+
+[Declare]
+Fill   = 00859B
+Border = 000000
+Text   = FFFFFF
+
+[Assign]
+Fill   = 00859B
+Border = 000000
+Text   = FFFFFF
+
+[Terminator]
+Fill   = 8D0096
+Border = 000000
+Text   = FFFFFF
+
+[Call]
+Fill   = 8D0096
+Border = 000000
+Text   = FFFFFF
+
+[If]
+Fill   = D34927
+Border = 000000
+Text   = FFFFFF
+
+[Loop]
+Fill   = BD1E4A
+Border = 000000
+Text   = FFFFFF
+
+[Incomplete]
+Fill   = 696969
+Border = 000000
+Text   = FFFFFF
+
+[Error]
+Fill   = BD1E4A
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 00859B
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 008D00
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 00006F
+Border = 000000
+Text   = FFFFFF
+
+[Header]
+Fill   = 00006F
+Border = FFFFFF
+Text   = FFFFFF
+
+[Hover]
+Fill   = 00006F
+Border = FFFFFF
+Text   = FFFFFF
+
+[Integer]
+Fill   = 0A59C2
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 8D0096
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = BD1E4A
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 00859B
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

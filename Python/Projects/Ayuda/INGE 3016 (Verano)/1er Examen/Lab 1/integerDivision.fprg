@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 06:12:34 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDY6MDA6MDYgUE07Mjc2NA=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDY6MTI6MzQgUE07MjsyODc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="file: longDivision.fprg"/>
+            <declare name="quotient, numerator, denominator" type="Integer" array="False" size=""/>
+            <assign variable="quotient" expression="0"/>
+            <output expression="&quot;Enter the denominator&quot;" newline="True"/>
+            <input variable="denominator"/>
+            <output expression="&quot;Enter the numerator&quot;" newline="True"/>
+            <input variable="numerator"/>
+            <while expression="numerator &gt;= denominator">
+                <assign variable="numerator" expression="numerator - denominator"/>
+                <assign variable="quotient" expression="quotient + 1"/>
+            </while>
+            <output expression="&quot;The quotient is &quot; &amp; quotient &amp; &quot; and the remainder is &quot; &amp; numerator" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

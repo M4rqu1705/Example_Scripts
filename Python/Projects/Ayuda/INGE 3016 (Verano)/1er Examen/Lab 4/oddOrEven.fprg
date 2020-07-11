@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 06:52:02 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDY6NDY6NTQgUE07Mjc3Nw=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDY6NTI6MDIgUE07NDsyODc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="file: oddOrEven.fprg"/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number to check if it is even or odd: &quot;" newline="True"/>
+            <input variable="number"/>
+            <if expression="number % 2 == 1">
+                <then>
+                    <output expression="&quot;Number &quot; &amp; number &amp; &quot; is odd!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Number &quot; &amp; number &amp; &quot; is NOT odd&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

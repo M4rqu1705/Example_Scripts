@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 06:00:05 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDU6Mzg6MjAgUE07Mjc3MA=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDY6MDA6MDUgUE07MjsyODcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="file: letterGrade.fprg"/>
+            <declare name="score" type="Real" array="False" size=""/>
+            <declare name="LG" type="String" array="False" size=""/>
+            <output expression="&quot;What was your score?&quot;" newline="True"/>
+            <input variable="score"/>
+            <if expression="score &gt;= 90">
+                <then>
+                    <assign variable="LG" expression="&quot;A&quot;"/>
+                </then>
+                <else>
+                    <if expression="score &gt;= 80">
+                        <then>
+                            <assign variable="LG" expression="&quot;B&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="score &gt;= 70">
+                                <then>
+                                    <assign variable="LG" expression="&quot;C&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="score &gt;= 60">
+                                        <then>
+                                            <assign variable="LG" expression="&quot;D&quot;"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="LG" expression="&quot;F&quot;"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Student letter grade is &quot; &amp; LG" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

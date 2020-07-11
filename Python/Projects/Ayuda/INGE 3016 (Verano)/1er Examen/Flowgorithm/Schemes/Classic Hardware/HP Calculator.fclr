@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = HP 48 Calculator
+Author  = Devin Cook
+About   = This is the colors of the famous HP 48S calculator.
+Date    = 2019-07-04 16:07:03
+Version = 2.22
+
+[Line]
+Fill   = F8F8FF
+Border = FFAA80
+
+[Page]
+Fill   = 383230
+Border = F8F8FF
+Text   = FFAA80
+
+[Breakpoint]
+Fill   = FFAA80
+Border = 080400
+Text   = 000000
+
+[Comment]
+Fill   = 383230
+Border = FFAA80
+Text   = FFAA80
+
+[Input]
+Fill   = FFAA80
+Border = 080400
+Text   = 34302C
+
+[Output]
+Fill   = C0D8A8
+Border = 080400
+Text   = 405040
+
+[Declare]
+Fill   = FFAA80
+Border = 080400
+Text   = 34302C
+
+[Assign]
+Fill   = FFAA80
+Border = 080400
+Text   = 34302C
+
+[Terminator]
+Fill   = FFAA80
+Border = 080400
+Text   = 34302C
+
+[Call]
+Fill   = A0E0FF
+Border = 080400
+Text   = 34302C
+
+[If]
+Fill   = A0E0FF
+Border = 080400
+Text   = 34302C
+
+[Loop]
+Fill   = A0E0FF
+Border = 080400
+Text   = 34302C
+
+[Incomplete]
+Fill   = 24201C
+Border = F8F8FF
+Text   = F8F8FF
+
+[Error]
+Fill   = 24201C
+Border = FFAA80
+Text   = F8F8FF
+
+[Selected]
+Fill   = F8F8FF
+Border = 161210
+Text   = 484240
+
+[Executing]
+Fill   = 24201C
+Border = A0E0FF
+Text   = FFFFFF
+
+[Window]
+Fill   = 484240
+Border = 24201C
+Text   = F8F8FF
+
+[Header]
+Fill   = 24201C
+Border = 080400
+Text   = E0E0E8
+
+[Hover]
+Fill   = 484240
+Border = 24201C
+Text   = F8F8FF
+
+[Integer]
+Fill   = 4060C0
+Border = 002060
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 402040
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 600000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 004040
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

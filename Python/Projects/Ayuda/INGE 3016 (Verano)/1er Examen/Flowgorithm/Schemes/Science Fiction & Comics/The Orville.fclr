@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = The Orville
+Author  = Seth MacFarlane (theme by Devin Cook)
+About   = This is the bridge and uniform colors from The Orville.
+Date    = 2020-06-23 17:48:58
+Version = 2.22
+
+[Line]
+Fill   = 207898
+Border = 505050
+
+[Page]
+Fill   = EAE8E6
+Border = 505050
+Text   = 43413D
+
+[Breakpoint]
+Fill   = A43044
+Border = 000000
+Text   = 000000
+
+[Comment]
+Fill   = ECE8E4
+Border = 505050
+Text   = 505050
+
+[Input]
+Fill   = 505050
+Border = 000000
+Text   = E8E8E8
+
+[Output]
+Fill   = 0C7658
+Border = 000000
+Text   = E8E8E8
+
+[Declare]
+Fill   = 30609C
+Border = 000000
+Text   = E8E8E8
+
+[Assign]
+Fill   = 30609C
+Border = 000000
+Text   = E8E8E8
+
+[Terminator]
+Fill   = 684884
+Border = 000000
+Text   = FFF080
+
+[Call]
+Fill   = A43044
+Border = 000000
+Text   = E8E8E8
+
+[If]
+Fill   = A43044
+Border = 000000
+Text   = E8E8E8
+
+[Loop]
+Fill   = DC6A50
+Border = 000000
+Text   = E8E8E8
+
+[Incomplete]
+Fill   = FFFFFF
+Border = 000000
+Text   = 43413D
+
+[Error]
+Fill   = E02020
+Border = 000000
+Text   = FFFF80
+
+[Selected]
+Fill   = 69F3FD
+Border = 000000
+Text   = 000000
+
+[Executing]
+Fill   = 208020
+Border = 000000
+Text   = FFFF80
+
+[Window]
+Fill   = 8C7C70
+Border = 505050
+Text   = FFFFFF
+
+[Header]
+Fill   = 8C7C70
+Border = 505050
+Text   = FFFFFF
+
+[Hover]
+Fill   = FAF8F6
+Border = 8A8886
+Text   = 505050
+
+[Integer]
+Fill   = 30609C
+Border = 000000
+Text   = E8E8E8
+
+[Real]
+Fill   = 684884
+Border = 000000
+Text   = FFFF80
+
+[String]
+Fill   = A43044
+Border = 000000
+Text   = E8E8E8
+
+[Boolean]
+Fill   = 0C7658
+Border = 000000
+Text   = E8E8E8
+
+[Value]
+Fill = FFFFFF
+Text = 43413D
+
+[Subscript]
+Fill = D0D0D0
+Text = 505050

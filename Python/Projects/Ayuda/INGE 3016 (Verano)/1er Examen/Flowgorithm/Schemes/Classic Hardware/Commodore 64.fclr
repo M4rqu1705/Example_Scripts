@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Commodore 64
+Author  = Commodore Business Machines (Scheme by Devin Cook)
+About   = The colors of the Commodore 64. The C64 was one of the defining computers of the 1980's.
+Date    = 2019-07-12 01:14:57
+Version = 2.22
+
+[Line]
+Fill   = FFFFFF
+Border = 5E4742
+
+[Page]
+Fill   = CCC1B9
+Border = 5E4742
+Text   = 5E4742
+
+[Breakpoint]
+Fill   = B81408
+Border = 10100A
+Text   = 000000
+
+[Comment]
+Fill   = CCC1B9
+Border = 5E4742
+Text   = 5E4742
+
+[Input]
+Fill   = 5E4742
+Border = 1F1716
+Text   = F0F0F0
+
+[Output]
+Fill   = 5E4742
+Border = 1F1716
+Text   = F0F0F0
+
+[Declare]
+Fill   = 5E4742
+Border = 1F1716
+Text   = F0F0F0
+
+[Assign]
+Fill   = 5E4742
+Border = 1F1716
+Text   = F0F0F0
+
+[Terminator]
+Fill   = 828078
+Border = 10100A
+Text   = F0F0F0
+
+[Call]
+Fill   = 746461
+Border = 262120
+Text   = F0F0F0
+
+[If]
+Fill   = 746461
+Border = 262120
+Text   = F0F0F0
+
+[Loop]
+Fill   = 746461
+Border = 262120
+Text   = F0F0F0
+
+[Incomplete]
+Fill   = F0F0F0
+Border = 000000
+Text   = 000000
+
+[Error]
+Fill   = FC6C44
+Border = 10100A
+Text   = 10100A
+
+[Selected]
+Fill   = 64BCF0
+Border = 10100A
+Text   = 10100A
+
+[Executing]
+Fill   = 80C48A
+Border = 10100A
+Text   = 10100A
+
+[Window]
+Fill   = E1D3C8
+Border = 5E4742
+Text   = 5E4742
+
+[Header]
+Fill   = 3B2C29
+Border = 000000
+Text   = FFFFFF
+
+[Hover]
+Fill   = E1D3C8
+Border = 5E4842
+Text   = 5E4842
+
+[Integer]
+Fill   = 4060C0
+Border = 002060
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 402040
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 600000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 004040
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

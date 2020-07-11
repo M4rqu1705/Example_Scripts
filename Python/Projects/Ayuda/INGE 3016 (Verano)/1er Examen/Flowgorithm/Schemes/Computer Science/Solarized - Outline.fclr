@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Solarized - Outline
+Author  = Ethan Schoonover
+About   = Ethan Schoonover spent over 16 months selecting the most used colors in computer science. This color scheme is a favorite amongst computer programmers.
+Date    = 2019-07-04 16:25:48
+Version = 2.22
+
+[Line]
+Fill   = FDF6E3
+Border = 586E75
+
+[Page]
+Fill   = 003642
+Border = FDF6E3
+Text   = 93A1A1
+
+[Breakpoint]
+Fill   = DC322F
+Border = 002B36
+Text   = 000000
+
+[Comment]
+Fill   = 003642
+Border = 93A1A1
+Text   = 93A1A1
+
+[Input]
+Fill   = 003642
+Border = 268BD2
+Text   = FDF6E3
+
+[Output]
+Fill   = 003642
+Border = 2AA198
+Text   = FDF6E3
+
+[Declare]
+Fill   = 003642
+Border = B58900
+Text   = FDF6E3
+
+[Assign]
+Fill   = 003642
+Border = B58900
+Text   = FDF6E3
+
+[Terminator]
+Fill   = 003642
+Border = 6C71C4
+Text   = FDF6E3
+
+[Call]
+Fill   = 003642
+Border = 6C71C4
+Text   = FDF6E3
+
+[If]
+Fill   = 003642
+Border = D33682
+Text   = FDF6E3
+
+[Loop]
+Fill   = 003642
+Border = D24E01
+Text   = FDF6E3
+
+[Incomplete]
+Fill   = 93A1A1
+Border = 002B36
+Text   = 002B36
+
+[Error]
+Fill   = DC322F
+Border = 002B36
+Text   = FDF6E3
+
+[Selected]
+Fill   = FDF6E3
+Border = 002B36
+Text   = 002B36
+
+[Executing]
+Fill   = 859900
+Border = 002B36
+Text   = FDF6E3
+
+[Window]
+Fill   = 003642
+Border = 002B36
+Text   = 93A1A1
+
+[Header]
+Fill   = 002B36
+Border = 586E75
+Text   = 93A1A1
+
+[Hover]
+Fill   = 002B36
+Border = 586E75
+Text   = 93A1A1
+
+[Integer]
+Fill   = 4060C0
+Border = FDF6E3
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = FDF6E3
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = FDF6E3
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = FDF6E3
+Text   = FFFFFF
+
+[Value]
+Fill = 002B36
+Text = 93A1A1
+
+[Subscript]
+Fill = 002B36
+Text = 93A1A1

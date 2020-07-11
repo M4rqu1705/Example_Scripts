@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Superman
+Author  = D.C. Comics
+About   = Flowcharts can jump blocks in a single bound.
+Date    = 2019-07-14 21:09:53
+Version = 2.22
+
+[Line]
+Fill   = FFFFFF
+Border = FFFFD0
+
+[Page]
+Fill   = 004080
+Border = FFFFD0
+Text   = FFFFD0
+
+[Breakpoint]
+Fill   = 802040
+Border = FFFFD0
+Text   = 000000
+
+[Comment]
+Fill   = 004080
+Border = FFFFD0
+Text   = FFFFD0
+
+[Input]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Output]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Declare]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Assign]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Terminator]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Call]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[If]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Loop]
+Fill   = 802040
+Border = FFFFA0
+Text   = FFFFA0
+
+[Incomplete]
+Fill   = E0E0E0
+Border = 000000
+Text   = 000000
+
+[Error]
+Fill   = C04040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 2080D0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 00A080
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 2060A0
+Border = 004080
+Text   = FFFFFF
+
+[Header]
+Fill   = FFFFA0
+Border = 000000
+Text   = 803030
+
+[Hover]
+Fill   = 2060A0
+Border = 60A0E0
+Text   = 60A0E0
+
+[Integer]
+Fill   = 4060C0
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFE0
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

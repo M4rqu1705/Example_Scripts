@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = TRON
+Author  = Disney
+About   = The classic 1982 movie and the 2010 sequel. Chaos... good news!
+Date    = 2019-07-12 11:54:20
+Version = 2.22
+
+[Line]
+Fill   = FFE434
+Border = A0A0A0
+
+[Page]
+Fill   = 000000
+Border = FFFFFF
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = 282828
+Border = E8E8E8
+Text   = 000000
+
+[Comment]
+Fill   = 000000
+Border = 84E6F4
+Text   = 84E6F4
+
+[Input]
+Fill   = 282828
+Border = FF6060
+Text   = FF6060
+
+[Output]
+Fill   = 282828
+Border = 84E6F4
+Text   = 84E6F4
+
+[Declare]
+Fill   = 282828
+Border = FF6060
+Text   = FF6060
+
+[Assign]
+Fill   = 282828
+Border = FF6060
+Text   = FF6060
+
+[Terminator]
+Fill   = 282828
+Border = E8E8E8
+Text   = E8E8E8
+
+[Call]
+Fill   = 282828
+Border = E8E8E8
+Text   = E8E8E8
+
+[If]
+Fill   = 282828
+Border = E8E8E8
+Text   = E8E8E8
+
+[Loop]
+Fill   = 282828
+Border = FFE434
+Text   = FFE434
+
+[Incomplete]
+Fill   = 000000
+Border = A0A0A0
+Text   = A0A0A0
+
+[Error]
+Fill   = FF6060
+Border = 303030
+Text   = 303030
+
+[Selected]
+Fill   = 84E6F4
+Border = 000000
+Text   = 000000
+
+[Executing]
+Fill   = FFE434
+Border = 000000
+Text   = 000000
+
+[Window]
+Fill   = 303030
+Border = 000000
+Text   = F0F0F0
+
+[Header]
+Fill   = 303030
+Border = E8E8E8
+Text   = E8E8E8
+
+[Hover]
+Fill   = 303030
+Border = 808080
+Text   = E8E8E8
+
+[Integer]
+Fill   = 202020
+Border = 84E6F4
+Text   = 84E6F4
+
+[Real]
+Fill   = 202020
+Border = F484F4
+Text   = F484F4
+
+[String]
+Fill   = 282828
+Border = FF6060
+Text   = FF6060
+
+[Boolean]
+Fill   = 202020
+Border = F0F0F0
+Text   = F0F0F0
+
+[Value]
+Fill = 000000
+Text = E8E8E8
+
+[Subscript]
+Fill = 202020
+Text = E8E8E8

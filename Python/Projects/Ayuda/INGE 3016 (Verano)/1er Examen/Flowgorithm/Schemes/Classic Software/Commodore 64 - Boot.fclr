@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = GEOS
+Author  = Berkeley Softworks
+About   = The Commodore 64 had a simple, eloquent, operating system. This schemes mimicks version 1.0.
+Date    = 2019-07-05 14:08:29
+Version = 2.22
+
+[Line]
+Fill   = 75CEC8
+Border = 706DEB
+
+[Page]
+Fill   = 2E2C9B
+Border = 706DEB
+Text   = 706DEB
+
+[Breakpoint]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 000000
+
+[Comment]
+Fill   = 2E2C9B
+Border = 706DEB
+Text   = 706DEB
+
+[Input]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Output]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Declare]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Assign]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Terminator]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Call]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[If]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Loop]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Incomplete]
+Fill   = B0B0B0
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Error]
+Fill   = C07870
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Selected]
+Fill   = 78C0C8
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Executing]
+Fill   = B0F088
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Window]
+Fill   = 2E2C9B
+Border = 4A4A4A
+Text   = 706DEB
+
+[Header]
+Fill   = 706DEB
+Border = 2E2C9B
+Text   = 2E2C9B
+
+[Hover]
+Fill   = 2E2C9B
+Border = 706DEB
+Text   = 706DEB
+
+[Integer]
+Fill   = 706DEB
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 8848B0
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = C07870
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 78C0C8
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = B0B0B0
+Text = 000000

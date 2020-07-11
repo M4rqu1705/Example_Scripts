@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 10:24:23 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MTA6MTk6MzggUE07Mjc3NA=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MTA6MjQ6MjMgUE07MjsyODcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="file: grades.fprg"/>
+            <comment text="Ex-20. Selection. [M] Given the final score percentage (e.g.,79%), write an algorithm [CAD, CS, PSC, FC] to calculate the grade of a student based on the A through F letter grade system (e.g., C)."/>
+            <declare name="score" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter score in percent (e.g. 79%):&quot;" newline="True"/>
+            <input variable="score"/>
+            <if expression="score &gt;= 90">
+                <then>
+                    <output expression="&quot;A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="score &gt;= 80">
+                        <then>
+                            <output expression="&quot;B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="score &gt;= 70">
+                                <then>
+                                    <output expression="&quot;C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="score &gt;= 60">
+                                        <then>
+                                            <output expression="&quot;D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;F&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

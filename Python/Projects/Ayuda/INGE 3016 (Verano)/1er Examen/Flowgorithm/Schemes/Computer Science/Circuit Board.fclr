@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Circuit Board
+Author  = Devin Cook
+About   = Chips, wires, and flowcharts.
+Date    = 2019-07-04 16:23:39
+Version = 2.22
+
+[Line]
+Fill   = D0D0E0
+Border = 55AE69
+
+[Page]
+Fill   = 1E4B30
+Border = D0D0E0
+Text   = D0D0E0
+
+[Breakpoint]
+Fill   = 3F3C32
+Border = A0A0A0
+Text   = 000000
+
+[Comment]
+Fill   = 1E4B30
+Border = D0D0E0
+Text   = D0D0E0
+
+[Input]
+Fill   = 3F3C32
+Border = A0A0A0
+Text   = D0D0E0
+
+[Output]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[Declare]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[Assign]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[Terminator]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[Call]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[If]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[Loop]
+Fill   = 3F3C32
+Border = D0D0E0
+Text   = D0D0E0
+
+[Incomplete]
+Fill   = 1E4B30
+Border = D0D0E0
+Text   = D0D0E0
+
+[Error]
+Fill   = 3F0000
+Border = D0D0E0
+Text   = D0D0E0
+
+[Selected]
+Fill   = 3E7B60
+Border = D0D0E0
+Text   = D0D0E0
+
+[Executing]
+Fill   = 003C00
+Border = D0D0E0
+Text   = D0D0E0
+
+[Window]
+Fill   = 2E5B40
+Border = 1E4B30
+Text   = D0D0E0
+
+[Header]
+Fill   = 1E4B30
+Border = D0D0E0
+Text   = D0D0E0
+
+[Hover]
+Fill   = 3E7B60
+Border = 0E3B20
+Text   = D0D0E0
+
+[Integer]
+Fill   = 4060C0
+Border = D0D0E0
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = D0D0E0
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = D0D0E0
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = D0D0E0
+Text   = FFFFFF
+
+[Value]
+Fill = 1E4B30
+Text = D0D0E0
+
+[Subscript]
+Fill = 1E4B30
+Text = D0D0E0

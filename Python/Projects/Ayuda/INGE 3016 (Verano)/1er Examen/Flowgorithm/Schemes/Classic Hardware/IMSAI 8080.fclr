@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = IMSAI 8080
+Author  = IMS Associates, Inc (Scheme by Devin Cook)
+About   = The IMSAI was a popular microcomputer in the 1980's. It was featured in the movie Wargames.
+Date    = 2019-07-12 12:03:09
+Version = 2.22
+
+[Line]
+Fill   = FDCE24
+Border = C6BCB0
+
+[Page]
+Fill   = 1A1A1A
+Border = C6BCB0
+Text   = C6BCB0
+
+[Breakpoint]
+Fill   = C82A32
+Border = 000000
+Text   = 000000
+
+[Comment]
+Fill   = 1A1A1A
+Border = C6BCB0
+Text   = C6BCB0
+
+[Input]
+Fill   = B24846
+Border = 000000
+Text   = 000000
+
+[Output]
+Fill   = C82A32
+Border = 000000
+Text   = FDCE24
+
+[Declare]
+Fill   = B24846
+Border = 000000
+Text   = 000000
+
+[Assign]
+Fill   = B24846
+Border = 000000
+Text   = 000000
+
+[Terminator]
+Fill   = C6BCB0
+Border = 000000
+Text   = 000000
+
+[Call]
+Fill   = 2F76C4
+Border = 000000
+Text   = 000000
+
+[If]
+Fill   = 2F76C4
+Border = 000000
+Text   = 000000
+
+[Loop]
+Fill   = 2F76C4
+Border = 000000
+Text   = 000000
+
+[Incomplete]
+Fill   = 5D5D5D
+Border = 000000
+Text   = 000000
+
+[Error]
+Fill   = FF0000
+Border = 000000
+Text   = FDCE24
+
+[Selected]
+Fill   = FFFFFF
+Border = 000000
+Text   = 000000
+
+[Executing]
+Fill   = 2FC42F
+Border = 000000
+Text   = 000000
+
+[Window]
+Fill   = 3A3A3A
+Border = 1A1A1A
+Text   = C6BCB0
+
+[Header]
+Fill   = 5D5D5D
+Border = 000000
+Text   = 000000
+
+[Hover]
+Fill   = 5D5D5D
+Border = 000000
+Text   = 000000
+
+[Integer]
+Fill   = 4060C0
+Border = 002060
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 402040
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 600000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 004040
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

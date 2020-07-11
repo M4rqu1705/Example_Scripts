@@ -1,0 +1,133 @@
+﻿[Main]
+Name    = Red LED
+Author  = Devin Cook
+About   = The old classic red LED display
+Date    = 2019-07-04 23:56:43
+Version = 2.22
+
+[Line]
+Fill   = FF6060
+Border = FF2020
+
+[Page]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Breakpoint]
+Fill   = 100808
+Border = FF2020
+Text   = FFFFFF
+
+[Comment]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Input]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Output]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Declare]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Assign]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Terminator]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Call]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[If]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Loop]
+Fill   = 100808
+Border = FF2020
+Text   = FF2020
+
+[Incomplete]
+Fill   = 100808
+Border = A00000
+Text   = A00000
+
+[Error]
+Fill   = A00000
+Border = 100808
+Text   = 100808
+
+[Selected]
+Fill   = FF2020
+Border = 100808
+Text   = 100808
+
+[Executing]
+Fill   = FF2020
+Border = 100808
+Text   = 100808
+
+[Window]
+Fill   = 200000
+Border = 000000
+Text   = FF2020
+
+[Header]
+Fill   = FF2020
+Border = FF2020
+Text   = 080808
+
+[Hover]
+Fill   = 200000
+Border = 800000
+Text   = FF2020
+
+[menu]
+Fill   = ADD8E6
+Border = 808080
+Text   = 000000
+
+[Integer]
+Fill   = 4060C0
+Border = 4060C0
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 804080
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = A04040
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 408080
+Text   = FFFFFF
+
+[Value]
+Fill = 100808
+Text = FF2020
+
+[Subscript]
+Fill = 550000
+Text = FF2020

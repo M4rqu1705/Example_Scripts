@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 10:03:11 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MDk6NDM6NTkgUE07Mjc4Mg=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MTA6MDM6MTEgUE07MjsyODY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="file: movieTheater.fprg"/>
+            <declare name="age, weekday" type="Integer" array="False" size=""/>
+            <declare name="withParent, isStudent, isEvening" type="Boolean" array="False" size=""/>
+            <assign variable="withParent" expression="false"/>
+            <assign variable="isEvening" expression="false"/>
+            <declare name="money, price" type="Real" array="False" size=""/>
+            <declare name="ratings" type="String" array="False" size=""/>
+            <output expression="&quot;How old are you?:&quot;" newline="True"/>
+            <input variable="age"/>
+            <if expression="age &lt; 16">
+                <then>
+                    <output expression="&quot;Are you with your parents?:&quot;" newline="True"/>
+                    <input variable="withParent"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Are you a student?:&quot;" newline="True"/>
+            <input variable="isStudent"/>
+            <output expression="&quot;How much money do you have available?:&quot;" newline="True"/>
+            <input variable="money"/>
+            <output expression="&quot;What day of the week is it? (1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday, 7 = Sunday):&quot;" newline="True"/>
+            <input variable="weekday"/>
+            <if expression="!isStudent">
+                <then>
+                    <output expression="&quot;Is it evening?:&quot;" newline="True"/>
+                    <input variable="isEvening"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="(16 &lt;= age) || (13 &lt;= age &amp;&amp; age &lt; 16 &amp;&amp; withParent)">
+                <then>
+                    <assign variable="ratings" expression="&quot;G, PG, and R&quot;"/>
+                </then>
+                <else>
+                    <if expression="age &lt; 13 &amp;&amp; !withParent">
+                        <then>
+                            <assign variable="ratings" expression="&quot;G&quot;"/>
+                        </then>
+                        <else>
+                            <assign variable="ratings" expression="&quot;G and PG&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="isStudent &amp;&amp; 1 &lt;= weekday &amp;&amp; weekday &lt;= 4">
+                <then>
+                    <assign variable="price" expression="4.0"/>
+                </then>
+                <else>
+                    <if expression="isEvening">
+                        <then>
+                            <assign variable="price" expression="6.50"/>
+                        </then>
+                        <else>
+                            <assign variable="price" expression="4.50"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;You can see movies with &quot; &amp; ratings &amp; &quot; rating(s)&quot;" newline="False"/>
+            <if expression="money &gt;= price">
+                <then>
+                    <output expression="&quot; and you have enough money to enter&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;, but you do not have enough money to enter&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

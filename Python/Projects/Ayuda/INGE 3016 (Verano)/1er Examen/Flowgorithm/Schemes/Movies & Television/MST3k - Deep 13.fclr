@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = MST3k - Deep 13
+Author  = Devin Cook
+About   = ...and I will take over the World. So, your movie today is...
+Date    = 2019-07-04 16:35:59
+Version = 2.22
+
+[Line]
+Fill   = FF8040
+Border = FFFFFF
+
+[Page]
+Fill   = 333D4A
+Border = FFFFFF
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = 790F0F
+Border = DD3333
+Text   = 000000
+
+[Comment]
+Fill   = 333D4A
+Border = FFFFFF
+Text   = FFFFFF
+
+[Input]
+Fill   = 745070
+Border = 9C6C98
+Text   = FFFFFF
+
+[Output]
+Fill   = 3C487C
+Border = 6074B4
+Text   = FFFFFF
+
+[Declare]
+Fill   = 745070
+Border = 9C6C98
+Text   = FFFFFF
+
+[Assign]
+Fill   = 745070
+Border = 9C6C98
+Text   = FFFFFF
+
+[Terminator]
+Fill   = 68883C
+Border = A4C474
+Text   = FFFFFF
+
+[Call]
+Fill   = 68883C
+Border = A4C474
+Text   = FFFFFF
+
+[If]
+Fill   = 68883C
+Border = A4C474
+Text   = FFFFFF
+
+[Loop]
+Fill   = 68883C
+Border = A4C474
+Text   = FFFFFF
+
+[Incomplete]
+Fill   = 606060
+Border = 909090
+Text   = FFFFFF
+
+[Error]
+Fill   = 781010
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 44548C
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 4C9C28
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 232D3A
+Border = 1C2028
+Text   = FFFFFF
+
+[Header]
+Fill   = 4C5C74
+Border = 1C2028
+Text   = FFFFFF
+
+[Hover]
+Fill   = 4C5C74
+Border = 1C2028
+Text   = FFFFFF
+
+[Integer]
+Fill   = 4060C0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = FFFFFF
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = FFFFFF
+Text   = FFFFFF
+
+[Value]
+Fill = 333D4A
+Text = FFFFFF
+
+[Subscript]
+Fill = 4C5C74
+Text = FFFFFF

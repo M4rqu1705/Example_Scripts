@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Pumpkin Pie
+Author  = Devin Cook
+About   = ... with whipped cream.
+Date    = 2019-07-12 12:12:43
+Version = 2.22
+
+[Line]
+Fill   = FFFFFF
+Border = F8F8F8
+
+[Page]
+Fill   = AC6C40
+Border = FEDCA8
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = F0CCA8
+Border = 40372A
+Text   = 000000
+
+[Comment]
+Fill   = AC6C40
+Border = FEDCA8
+Text   = FFFFFF
+
+[Input]
+Fill   = F8F8F8
+Border = 3E3E3E
+Text   = 3E3E3E
+
+[Output]
+Fill   = F8F8F8
+Border = 3E3E3E
+Text   = 3E3E3E
+
+[Declare]
+Fill   = F8F8F8
+Border = 3E3E3E
+Text   = 3E3E3E
+
+[Assign]
+Fill   = FEDCA8
+Border = 40372A
+Text   = 40372A
+
+[Terminator]
+Fill   = F8F8F8
+Border = 3E3E3E
+Text   = 3E3E3E
+
+[Call]
+Fill   = FEDCA8
+Border = 40372A
+Text   = 40372A
+
+[If]
+Fill   = FEDCA8
+Border = 40372A
+Text   = 40372A
+
+[Loop]
+Fill   = FEDCA8
+Border = 40372A
+Text   = 40372A
+
+[Incomplete]
+Fill   = AC6C40
+Border = FEDCA8
+Text   = FFFFFF
+
+[Error]
+Fill   = C04040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 2080D0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 00A080
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = C87C44
+Border = AC6C40
+Text   = FFFFFF
+
+[Header]
+Fill   = DC8456
+Border = FFDCB8
+Text   = FFFFFF
+
+[Hover]
+Fill   = C87C44
+Border = FEDCA8
+Text   = FFFFFF
+
+[Integer]
+Fill   = 4060C0
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = F8F8F8
+Text = 3E3E3E
+
+[Subscript]
+Fill = FEDCA8
+Text = 40372A

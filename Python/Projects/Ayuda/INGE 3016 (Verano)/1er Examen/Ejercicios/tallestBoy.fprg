@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 10:19:36 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MTA6MDU6MjcgUE07Mjc2Nw=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjM7MTA6MTk6MzYgUE07MTsyODgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Ex-13. Selection. [H] Write and algorithm [CAD, CS, PSC, FC] to print the height of the tallest boy in a three-people basketball team. Ask your program to assume the first boy is the tallest, then compare second with tallest and store the taller, repeat the procedure with the third boy."/>
+            <declare name="height1, height2, height3, maxHeight" type="Integer" array="False" size=""/>
+            <output expression="&quot;What is the first boy's height?&quot;" newline="True"/>
+            <input variable="height1"/>
+            <assign variable="maxHeight" expression="height1"/>
+            <output expression="&quot;What is the second boy's height?&quot;" newline="True"/>
+            <input variable="height2"/>
+            <if expression="height2 &gt; maxHeight">
+                <then>
+                    <assign variable="maxHeight" expression="height2"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;What is the third boy's height?&quot;" newline="True"/>
+            <input variable="height3"/>
+            <if expression="height3 &gt; maxHeight">
+                <then>
+                    <assign variable="maxHeight" expression="height3"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;The height of the tallest boy is &quot; &amp; maxHeight" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

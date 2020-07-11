@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Gold Rush
+Author  = Devin Cook
+About   = The colors of the 1849 California Gold Rush. The colors mimic the American River, earth, rock, wood, and, of course, gold.
+Date    = 2019-07-04 23:43:58
+Version = 2.22
+
+[Line]
+Fill   = E4C048
+Border = E2E8F0
+
+[Page]
+Fill   = 587AAC
+Border = E2E8F0
+Text   = E2E8F0
+
+[Breakpoint]
+Fill   = BAA894
+Border = 342C21
+Text   = 000000
+
+[Comment]
+Fill   = 587AAC
+Border = E2E8F0
+Text   = E2E8F0
+
+[Input]
+Fill   = 8C6339
+Border = 44301C
+Text   = DEC6AD
+
+[Output]
+Fill   = C7AF43
+Border = 352E0D
+Text   = F8F2DC
+
+[Declare]
+Fill   = 967C52
+Border = 453925
+Text   = E0D8C9
+
+[Assign]
+Fill   = 967C52
+Border = 453925
+Text   = E0D8C9
+
+[Terminator]
+Fill   = D0D4DA
+Border = 30343C
+Text   = 5E6878
+
+[Call]
+Fill   = D0D4DA
+Border = 30343C
+Text   = 5E6878
+
+[If]
+Fill   = D0D4DA
+Border = 30343C
+Text   = 5E6878
+
+[Loop]
+Fill   = C5BD89
+Border = 39361C
+Text   = 726A38
+
+[Incomplete]
+Fill   = 587AAC
+Border = E2E8F0
+Text   = E2E8F0
+
+[Error]
+Fill   = C04040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 2080D0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 00A080
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 789ACC
+Border = 142545
+Text   = FFFFFF
+
+[Header]
+Fill   = F0F4F8
+Border = 2B3C55
+Text   = 2B3C55
+
+[Hover]
+Fill   = 789ACC
+Border = 2E4B78
+Text   = FFFFFF
+
+[Integer]
+Fill   = 4060C0
+Border = 30343C
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 30343C
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 30343C
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 30343C
+Text   = FFFFFF
+
+[Value]
+Fill = D0D4DA
+Text = 3E4858
+
+[Subscript]
+Fill = C5BD89
+Text = 726A38

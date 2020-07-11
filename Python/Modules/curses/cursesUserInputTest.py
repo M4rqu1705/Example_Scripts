@@ -5,7 +5,6 @@ from time import sleep
 import curses
 import re
 
-
 def setBackground(screen, height, width, mode="default"):
     """ Set up application's standard background.
 
@@ -26,6 +25,9 @@ def setBackground(screen, height, width, mode="default"):
        └───────────────────────────────────────────────────────────────────────┘
     """
 
+    # Un string más
+    "Un string más"
+
     contentWidth = width - 4
     mode = "[{}]".format(mode)
 
@@ -43,7 +45,6 @@ def setBackground(screen, height, width, mode="default"):
     for line in range(3, height-1):
         screen.addstr(line, 0, contents[3])
     screen.addstr(height-1, 0, contents[4])
-
 
 def controlUserInput(text, cursor, key, width):
     """ Manipulates text and updates it according to key and cursor
@@ -122,9 +123,7 @@ def controlUserInput(text, cursor, key, width):
 
     return(text, cursor)
 
-
 def main(stdscr):
-
     curses.noecho()
     curses.curs_set(2)
 

@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Flag of California
+Author  = Devin Cook
+About   = These are the colors of the Flag of the Republic of California
+Date    = 2019-07-12 01:13:28
+Version = 2.22
+
+[Line]
+Fill   = BD8A5E
+Border = 584528
+
+[Page]
+Fill   = FFFFFF
+Border = 584528
+Text   = 584528
+
+[Breakpoint]
+Fill   = B71234
+Border = 000000
+Text   = C0C0C0
+
+[Comment]
+Fill   = FFFFFF
+Border = 584528
+Text   = 584528
+
+[Input]
+Fill   = B71234
+Border = 000000
+Text   = FFFFFF
+
+[Output]
+Fill   = 584528
+Border = 000000
+Text   = FFFFFF
+
+[Declare]
+Fill   = B71234
+Border = 000000
+Text   = FFFFFF
+
+[Assign]
+Fill   = B71234
+Border = 000000
+Text   = FFFFFF
+
+[Terminator]
+Fill   = BD8A5E
+Border = 000000
+Text   = FFFFFF
+
+[Call]
+Fill   = 008542
+Border = 000000
+Text   = FFFFFF
+
+[If]
+Fill   = 008542
+Border = 000000
+Text   = FFFFFF
+
+[Loop]
+Fill   = BD8A5E
+Border = 000000
+Text   = FFFFFF
+
+[Incomplete]
+Fill   = FFFFFF
+Border = 584528
+Text   = 584528
+
+[Error]
+Fill   = FFFFFF
+Border = B71234
+Text   = B71234
+
+[Selected]
+Fill   = E0E0E0
+Border = 707070
+Text   = 000000
+
+[Executing]
+Fill   = FFFFFF
+Border = 008542
+Text   = 008542
+
+[Window]
+Fill   = F0F0F0
+Border = A0A0A0
+Text   = 000000
+
+[Header]
+Fill   = E0E0E0
+Border = 707070
+Text   = 000000
+
+[Hover]
+Fill   = E0E0E0
+Border = 707070
+Text   = 000000
+
+[Integer]
+Fill   = 4060C0
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = B71234
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-07-05 02:23:02 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDctMDU7MTI6Mjk6MjYgUE07Mjc3NQ=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDctMDU7MDI6MjM6MDIgUE07MjsyODcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, errorTolerance, V, R" type="Real" array="False" size=""/>
+            <output expression="&quot;What is the maximum accepted error tolerance between a and b?&quot;" newline="True"/>
+            <input variable="errorTolerance"/>
+            <output expression="&quot;How much volume do you want to hold? (meters^3)&quot;" newline="True"/>
+            <input variable="V"/>
+            <output expression="&quot;What is the spherical tank's radius? (meters)&quot;" newline="True"/>
+            <input variable="R"/>
+            <assign variable="a" expression="-1"/>
+            <assign variable="b" expression="3 * R / 2"/>
+            <while expression="abs(a - b) &gt; errorTolerance">
+                <assign variable="c" expression="(a + b) / 2"/>
+                <if expression="f(a, V, R)*f(c, V, R) &lt; 0">
+                    <then>
+                        <assign variable="b" expression="c"/>
+                    </then>
+                    <else>
+                        <assign variable="a" expression="c"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;The solution to the problem is &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+    <function name="f" type="Real" variable="output">
+        <parameters>
+            <parameter name="h" type="Real" array="False"/>
+            <parameter name="V" type="Integer" array="False"/>
+            <parameter name="R" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="output" type="Real" array="False" size=""/>
+            <assign variable="output" expression="pi * h^3 - 3 * pi * R * h^2 + 3 * V"/>
+        </body>
+    </function>
+</flowgorithm>

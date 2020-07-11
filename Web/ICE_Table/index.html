@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Tabla ICE</title>
-        <script src="https://bossanova.uk/jexcel/v3/jexcel.js"></script>
-        <link rel="stylesheet" href="https://bossanova.uk/jexcel/v3/jexcel.css" type="text/css" />
-        <script src="https://bossanova.uk/jsuites/v2/jsuites.js"></script>
-        <link rel="stylesheet" href="https://bossanova.uk/jsuites/v2/jsuites.css" type="text/css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tabla ICE</title>
+    <script src="https://bossanova.uk/jexcel/v3/jexcel.js"></script>
+    <link rel="stylesheet" href="https://bossanova.uk/jexcel/v3/jexcel.css" type="text/css" />
+    <script src="https://bossanova.uk/jsuites/v2/jsuites.js"></script>
+    <link rel="stylesheet" href="https://bossanova.uk/jsuites/v2/jsuites.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <div>
-            <h1>Tabla ICE</h1>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-            <div id="table"></div>
-            <br><br>
+<body>
 
-            <label for="x-input" class="input-label">x</label>
-            <input type="text" id="x-input" oninput="updateX()" placeholder="7.1E-4"><br>
+    <div>
+        <h1>Tabla ICE</h1>
 
-            <label for="kc-input" class="input_label">K<sub>c</sub></label>
-            <input type="text" id="kc-input" oninput="updateKc()" placeholder="1E-3"><br><br>
+        <div id="table"></div>
+        <br><br>
 
-            <button id="find-x" onclick="processTable()">Find x!</button>
-        </div>
+        <label for="x-input" class="input-label">x</label>
+        <input type="text" id="x-input" oninput="updateX()" placeholder="7.1E-4"><br>
 
-        <script src="script.js"></script>
+        <label for="kc-input" class="input_label">K<sub>c</sub></label>
+        <input type="text" id="kc-input" oninput="updateKc()" placeholder="1E-3"><br><br>
 
-    </body>
+        <button id="find-x" onclick="processTable()">Find x!</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>

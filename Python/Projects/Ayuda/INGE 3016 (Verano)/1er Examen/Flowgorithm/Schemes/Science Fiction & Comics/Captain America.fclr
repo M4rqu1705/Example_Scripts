@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Captain America
+Author  = Marvel Comics
+About   = Flowcharts and democracy!
+Date    = 2019-07-14 21:11:58
+Version = 2.22
+
+[Line]
+Fill   = FFFFFF
+Border = FFFFD0
+
+[Page]
+Fill   = 305090
+Border = FFFFFF
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = 902030
+Border = FFFFFF
+Text   = 000000
+
+[Comment]
+Fill   = 305090
+Border = FFFFFF
+Text   = FFFFFF
+
+[Input]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Output]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Declare]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Assign]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Terminator]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Call]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[If]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Loop]
+Fill   = 902030
+Border = FFFFFF
+Text   = FFFFFF
+
+[Incomplete]
+Fill   = E0E0E0
+Border = 000000
+Text   = 000000
+
+[Error]
+Fill   = E02020
+Border = FFFFA0
+Text   = FFFFA0
+
+[Selected]
+Fill   = 2080D0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 00A080
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 2060A0
+Border = 004080
+Text   = FFFFFF
+
+[Header]
+Fill   = FFFFFF
+Border = 000000
+Text   = 004080
+
+[Hover]
+Fill   = 4060A0
+Border = 80A0E0
+Text   = 80A0E0
+
+[Integer]
+Fill   = 4060C0
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 000000
+
+[Subscript]
+Fill = E0E0E0
+Text = 000000

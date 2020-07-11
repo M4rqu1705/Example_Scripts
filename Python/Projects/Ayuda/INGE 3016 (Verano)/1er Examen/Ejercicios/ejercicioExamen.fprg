@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="m4rc0"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-24 12:14:18 PM"/>
+        <attribute name="created" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjQ7MTE6Mzc6NDEgQU07Mjc1NQ=="/>
+        <attribute name="edited" value="bTRyYzA7REVTS1RPUC1URzUyVEhKOzIwMjAtMDYtMjQ7MTI6MTQ6MTggUE07MTsyODc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, factor, counter" type="Integer" array="False" size=""/>
+            <declare name="result" type="String" array="False" size=""/>
+            <assign variable="result" expression="&quot;&quot;"/>
+            <assign variable="counter" expression="0"/>
+            <output expression="&quot;Entra el valor de N&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="factor" expression="N - 1"/>
+            <while expression="factor != N">
+                <output expression="&quot;Entra un factor adicional: &quot;" newline="True"/>
+                <input variable="factor"/>
+                <if expression="N % factor == 0">
+                    <then>
+                        <assign variable="result" expression="result &amp; factor &amp; &quot;, &quot;"/>
+                        <assign variable="counter" expression="counter + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;There are &quot; &amp; counter &amp; &quot; factors:&quot;" newline="True"/>
+            <output expression="result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

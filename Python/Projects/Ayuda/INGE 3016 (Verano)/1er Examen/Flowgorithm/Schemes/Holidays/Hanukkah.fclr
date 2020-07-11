@@ -1,0 +1,128 @@
+﻿[Main]
+Name    = Hanukkah
+Author  = Devin Cook
+About   = Happy Hanukkah!
+Date    = 2019-08-05 21:36:49
+Version = 2.22
+
+[Line]
+Fill   = E4C048
+Border = E0E0E0
+
+[Page]
+Fill   = 0038B8
+Border = FFFFFF
+Text   = FFFFFF
+
+[Breakpoint]
+Fill   = FFF8B0
+Border = 3E3C3A
+Text   = 000000
+
+[Comment]
+Fill   = 0038B8
+Border = FFFFFF
+Text   = FFFFFF
+
+[Input]
+Fill   = FFF0D0
+Border = 403E44
+Text   = 403E44
+
+[Output]
+Fill   = FFFFFF
+Border = 404040
+Text   = 404040
+
+[Declare]
+Fill   = FFF8B0
+Border = 403E28
+Text   = 403E28
+
+[Assign]
+Fill   = FFF8B0
+Border = 403E28
+Text   = 403E28
+
+[Terminator]
+Fill   = FFF0D0
+Border = 403E44
+Text   = 403E44
+
+[Call]
+Fill   = C0E0FF
+Border = 303840
+Text   = 303840
+
+[If]
+Fill   = C0E0FF
+Border = 303840
+Text   = 303840
+
+[Loop]
+Fill   = C0E0FF
+Border = 303840
+Text   = 303840
+
+[Incomplete]
+Fill   = 0038B8
+Border = FFFFFF
+Text   = FFFFFF
+
+[Error]
+Fill   = C04040
+Border = FFFFFF
+Text   = FFFFFF
+
+[Selected]
+Fill   = 2080D0
+Border = FFFFFF
+Text   = FFFFFF
+
+[Executing]
+Fill   = 00A080
+Border = FFFFFF
+Text   = FFFFFF
+
+[Window]
+Fill   = 2850A0
+Border = 083080
+Text   = FFFFFF
+
+[Header]
+Fill   = FFFFFF
+Border = 404040
+Text   = 404040
+
+[Hover]
+Fill   = 2058D8
+Border = 4078F8
+Text   = FFFFFF
+
+[Integer]
+Fill   = 2058D8
+Border = 000000
+Text   = FFFFFF
+
+[Real]
+Fill   = 804080
+Border = 000000
+Text   = FFFFFF
+
+[String]
+Fill   = A04040
+Border = 000000
+Text   = FFFFFF
+
+[Boolean]
+Fill   = 408080
+Border = 000000
+Text   = FFFFFF
+
+[Value]
+Fill = FFFFFF
+Text = 404040
+
+[Subscript]
+Fill = FFF0D0
+Text = 403E44
