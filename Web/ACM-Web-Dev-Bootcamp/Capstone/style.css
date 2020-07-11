@@ -1,0 +1,84 @@
+img{
+  width:4rem;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  background-color: #2ecc71;
+}
+
+.container{
+  background-color: #ecf0f1;
+  width: 90vw;
+  margin: 5rem auto 5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.5rem solid #c0392b;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+header{
+  font-size: 1.5rem;
+}
+article{
+  background-color: #27ae60;
+  width: 90%;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+article > h2{
+  font-size: 2rem;
+  margin: 0;
+}
+.item-title{
+  font-size: 1.5rem;
+  color: #111111;
+}
+.price{
+  font-size: 1rem;
+  color: #2c3e50;
+}
+.step1-item{
+  background-color: #ecf0f1;
+  margin: 1rem 20% 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+.image-item{
+  background-color: #ecf0f1;
+  margin: 1rem auto 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 60%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image-item > div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+#summary{
+  background-color: #ecf0f1;
+  margin: 1rem auto 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 40%;
+
+  text-align:left;
+  font-family: "Roboto";
+}

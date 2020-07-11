@@ -1,0 +1,108 @@
+body{
+  color:#ecf0f1;
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family: "Source Sans Pro";
+}
+
+/* Classes */
+.banner{
+  font-size: 2rem;
+
+  /* Centralizar contenido */
+  margin:auto;
+  text-align: center;
+  align-items:center;
+
+  /* Setea color de texto */
+  text-shadow:
+  -2px -2px 2px black,  
+  2px -2px 2px black,
+  -2px 2px 2px black,
+  2px 2px 2px black;
+
+  /* Añade un poco de padding */
+  padding: 1rem;
+
+  /* Prepara imagen de background */
+  background: url("header_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height:95.5vh;
+}
+
+.banner h1{
+  font-family: "Lato";
+  padding-top: 30vh;
+}
+
+.section{
+  padding: 3rem;
+  text-align:center;
+}
+
+#conoceme{
+  background-color: #c0392b;
+}
+
+#habilidades{
+  background-color: #2ecc71;
+}
+#habilidades li{
+  text-align: left;
+  margin: auto;
+}
+
+#series{
+  background-color: #9b59b6;
+  text-align:center;
+}
+#series > ol > li{
+  text-align:left;
+}
+#series > ol{
+  margin: auto;
+  text-align:center;
+}
+
+
+#contactame{
+  background-color: #2980b9;
+  height: 87vh;
+}
+.block{
+  text-align: left;
+  background-color: #ecf0f1;
+  color: black;
+  padding: 1rem;
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  border-radius: 0.25rem;
+}
+.block > h2{
+  font-size: 2rem;
+}
+.block input{
+  border-width: 0;
+  border-top-style: solid;
+  border-top-width: 0.25rem;
+  border-top-color: #f39c12;
+  width: min(20rem, 90%);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.block button{
+  padding: 1rem 3rem;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-style: none;
+  border-radius: 0.25rem;
+}
+.block textarea{
+  width: 75%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
